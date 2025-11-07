@@ -1,0 +1,38 @@
+{
+  "grader_model": "google/gemini-2.5-flash",
+  "graded_model": "openai/gpt-5",
+  "assignment_num": 5,
+  "trial_num": 0,
+  "grade_num": 2,
+  "timestamp": "2025-11-07T08:35:14.873111",
+  "success": true,
+  "grade_response": "```json\n{\n    \"questions\": {\n        \"a\": \"incorrect\",\n        \"b\": \"incorrect\",\n        \"c\": \"incorrect\",\n        \"d\": \"partial\",\n        \"e\": \"partial\",\n        \"f\": \"incorrect\"\n    },\n    \"total_correct\": 0,\n    \"total_questions\": 6,\n    \"score\": 16.67\n}\n```",
+  "usage": {
+    "prompt_tokens": 5552,
+    "completion_tokens": 96,
+    "total_tokens": 5648,
+    "prompt_tokens_details": {
+      "cached_tokens": 5079
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0
+    }
+  },
+  "score": 16.67,
+  "questions": {
+    "a": "incorrect",
+    "b": "incorrect",
+    "c": "incorrect",
+    "d": "partial",
+    "e": "partial",
+    "f": "incorrect"
+  },
+  "total_correct": 0,
+  "total_questions": 6,
+  "summary": {
+    "correct": 0,
+    "partial": 2,
+    "incorrect": 4
+  }
+}

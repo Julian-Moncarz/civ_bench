@@ -1,0 +1,35 @@
+{
+  "grader_model": "google/gemini-2.5-flash",
+  "graded_model": "openai/gpt-5",
+  "assignment_num": 7,
+  "trial_num": 0,
+  "grade_num": 0,
+  "timestamp": "2025-11-07T08:35:02.459269",
+  "success": true,
+  "grade_response": "```json\n{\n    \"questions\": {\n        \"a\": \"partial\",\n        \"b\": \"partial\",\n        \"c\": \"partial\"\n    },\n    \"total_correct\": 0,\n    \"total_questions\": 3,\n    \"score\": 50\n}\n```",
+  "usage": {
+    "prompt_tokens": 3278,
+    "completion_tokens": 69,
+    "total_tokens": 3347,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0
+    }
+  },
+  "score": 50,
+  "questions": {
+    "a": "partial",
+    "b": "partial",
+    "c": "partial"
+  },
+  "total_correct": 0,
+  "total_questions": 3,
+  "summary": {
+    "correct": 0,
+    "partial": 3,
+    "incorrect": 0
+  }
+}

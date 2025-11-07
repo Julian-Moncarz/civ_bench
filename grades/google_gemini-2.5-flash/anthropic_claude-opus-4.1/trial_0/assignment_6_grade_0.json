@@ -4,13 +4,13 @@
   "assignment_num": 6,
   "trial_num": 0,
   "grade_num": 0,
-  "timestamp": "2025-11-06T21:17:38.556825",
+  "timestamp": "2025-11-07T08:34:23.691332",
   "success": true,
-  "grade_response": "```json\n{\n    \"questions\": {\n        \"2a\": \"partial\",\n        \"2b\": \"partial\",\n        \"2c\": \"partial\",\n        \"2d\": \"partial\",\n        \"2e\": \"partial\"\n    },\n    \"total_correct\": 0,\n    \"total_questions\": 5,\n    \"score\": 50\n}\n```",
+  "grade_response": "```json\n{\n    \"questions\": {\n        \"a\": \"partial\",\n        \"b\": \"partial\",\n        \"c\": \"partial\",\n        \"d\": \"partial\",\n        \"e\": \"partial\"\n    },\n    \"total_correct\": 0,\n    \"total_questions\": 5,\n    \"score\": 50\n}\n```",
   "usage": {
     "prompt_tokens": 2756,
-    "completion_tokens": 90,
-    "total_tokens": 2846,
+    "completion_tokens": 85,
+    "total_tokens": 2841,
     "prompt_tokens_details": {
       "cached_tokens": 0
     },
@@ -21,11 +21,11 @@
   },
   "score": 50,
   "questions": {
-    "2a": "partial",
-    "2b": "partial",
-    "2c": "partial",
-    "2d": "partial",
-    "2e": "partial"
+    "a": "partial",
+    "b": "partial",
+    "c": "partial",
+    "d": "partial",
+    "e": "partial"
   },
   "total_correct": 0,
   "total_questions": 5,

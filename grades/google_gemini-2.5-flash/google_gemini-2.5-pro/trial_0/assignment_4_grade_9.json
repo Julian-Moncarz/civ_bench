@@ -4,13 +4,13 @@
   "assignment_num": 4,
   "trial_num": 0,
   "grade_num": 9,
-  "timestamp": "2025-11-06T22:32:00.202050",
+  "timestamp": "2025-11-06T23:13:13.263341",
   "success": true,
-  "grade_response": "```json\n{\n    \"questions\": {\n        \"a\": \"partial\",\n        \"b\": \"incorrect\",\n        \"c\": \"incorrect\",\n        \"d\": \"incorrect\"\n    },\n    \"total_correct\": 0,\n    \"total_questions\": 4,\n    \"score\": 12.5\n}\n```",
+  "grade_response": "{\n    \"questions\": {\n        \"a\": \"incorrect\",\n        \"b\": \"incorrect\",\n        \"c\": \"incorrect\",\n        \"d\": \"incorrect\"\n    },\n    \"total_correct\": 0,\n    \"total_questions\": 4,\n    \"score\": 0\n}",
   "usage": {
     "prompt_tokens": 2099,
-    "completion_tokens": 79,
-    "total_tokens": 2178,
+    "completion_tokens": 71,
+    "total_tokens": 2170,
     "prompt_tokens_details": {
       "cached_tokens": 1508
     },
@@ -19,9 +19,9 @@
       "image_tokens": 0
     }
   },
-  "score": 12.5,
+  "score": 0,
   "questions": {
-    "a": "partial",
+    "a": "incorrect",
     "b": "incorrect",
     "c": "incorrect",
     "d": "incorrect"
@@ -30,7 +30,7 @@
   "total_questions": 4,
   "summary": {
     "correct": 0,
-    "partial": 1,
-    "incorrect": 3
+    "partial": 0,
+    "incorrect": 4
   }
 }

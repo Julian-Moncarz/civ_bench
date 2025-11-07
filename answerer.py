@@ -123,14 +123,12 @@ def get_answer(
         print(f"  Sending assignment {assignment_num} ({len(image_paths)} image(s)) to {model_id}...")
 
     # Call the model
-    # Use longer timeout for GPT-5 (reasoning models are much slower)
-    timeout = 300 if "gpt-5" in model_id.lower() else 120
-    logger.info(f"Calling OpenRouter API with timeout={timeout}s")
+    logger.info(f"Calling OpenRouter API with timeout={config.DEFAULT_TIMEOUT}s")
     result = openrouter_client.call_model(
         model_id=model_id,
         prompt=config.ANSWERING_PROMPT,
         image_paths=image_paths,
-        timeout=timeout,
+        timeout=config.DEFAULT_TIMEOUT,
     )
 
     # Build response object

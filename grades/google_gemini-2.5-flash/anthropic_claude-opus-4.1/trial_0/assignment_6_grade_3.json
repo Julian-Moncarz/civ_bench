@@ -1,0 +1,37 @@
+{
+  "grader_model": "google/gemini-2.5-flash",
+  "graded_model": "anthropic/claude-opus-4.1",
+  "assignment_num": 6,
+  "trial_num": 0,
+  "grade_num": 3,
+  "timestamp": "2025-11-07T08:34:29.333458",
+  "success": true,
+  "grade_response": "```json\n{\n    \"questions\": {\n        \"a\": \"incorrect\",\n        \"b\": \"incorrect\",\n        \"c\": \"partial\",\n        \"d\": \"incorrect\",\n        \"e\": \"incorrect\"\n    },\n    \"total_correct\": 0,\n    \"total_questions\": 5,\n    \"score\": 10\n}\n```",
+  "usage": {
+    "prompt_tokens": 2756,
+    "completion_tokens": 85,
+    "total_tokens": 2841,
+    "prompt_tokens_details": {
+      "cached_tokens": 2624
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0
+    }
+  },
+  "score": 10,
+  "questions": {
+    "a": "incorrect",
+    "b": "incorrect",
+    "c": "partial",
+    "d": "incorrect",
+    "e": "incorrect"
+  },
+  "total_correct": 0,
+  "total_questions": 5,
+  "summary": {
+    "correct": 0,
+    "partial": 1,
+    "incorrect": 4
+  }
+}

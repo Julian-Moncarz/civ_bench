@@ -4,7 +4,7 @@
   "assignment_num": 1,
   "trial_num": 0,
   "grade_num": 0,
-  "timestamp": "2025-11-06T21:17:30.807318",
+  "timestamp": "2025-11-07T08:33:36.015844",
   "success": true,
   "grade_response": "```json\n{\n    \"questions\": {\n        \"1a\": \"correct\",\n        \"1b\": \"correct\",\n        \"1c\": \"correct\",\n        \"1d\": \"correct\",\n        \"1e\": \"correct\",\n        \"2\": \"partial\",\n        \"3\": \"partial\",\n        \"4\": \"partial\"\n    },\n    \"total_correct\": 5,\n    \"total_questions\": 8,\n    \"score\": 68.75\n}\n```",
   "usage": {

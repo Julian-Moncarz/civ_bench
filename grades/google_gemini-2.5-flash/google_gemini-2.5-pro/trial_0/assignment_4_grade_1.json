@@ -4,7 +4,7 @@
   "assignment_num": 4,
   "trial_num": 0,
   "grade_num": 1,
-  "timestamp": "2025-11-06T22:31:40.889677",
+  "timestamp": "2025-11-06T23:12:55.015656",
   "success": true,
   "grade_response": "{\n    \"questions\": {\n        \"a\": \"incorrect\",\n        \"b\": \"incorrect\",\n        \"c\": \"incorrect\",\n        \"d\": \"incorrect\"\n    },\n    \"total_correct\": 0,\n    \"total_questions\": 4,\n    \"score\": 0\n}",
   "usage": {
@@ -12,7 +12,7 @@
     "completion_tokens": 71,
     "total_tokens": 2170,
     "prompt_tokens_details": {
-      "cached_tokens": 1508
+      "cached_tokens": 0
     },
     "completion_tokens_details": {
       "reasoning_tokens": 0,

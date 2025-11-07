@@ -63,7 +63,7 @@ def plot_model_performance(df, output_path='analysis/graphs/model_performance.pn
 
     ax.set_xlabel('Model', fontsize=13, fontweight='bold')
     ax.set_ylabel('Average Score (0-1)', fontsize=13, fontweight='bold')
-    ax.set_title('Model Performance Comparison\n(with standard deviation)',
+    ax.set_title('Model performance on our civ homework',
                  fontsize=15, fontweight='bold', pad=20)
     ax.set_xticks(x_pos)
     ax.set_xticklabels(display_names, rotation=45, ha='right')

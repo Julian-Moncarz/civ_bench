@@ -4,13 +4,13 @@
   "assignment_num": 1,
   "trial_num": 0,
   "grade_num": 7,
-  "timestamp": "2025-11-06T22:32:13.118131",
+  "timestamp": "2025-11-06T23:13:26.764520",
   "success": true,
-  "grade_response": "```json\n{\n    \"questions\": {\n        \"1a\": \"correct\",\n        \"1b\": \"correct\",\n        \"1c\": \"correct\",\n        \"1d\": \"correct\",\n        \"1e\": \"correct\"\n        // The student only provided answers for Q1 in the text.\n        // Assuming there are other parts based on the ground truth answer format.\n    },\n    \"total_correct\": 5,\n    \"total_questions\": 5,\n    \"score\": 100\n}\n```",
+  "grade_response": "```json\n{\n    \"questions\": {\n        \"1 a) kN\": \"correct\",\n        \"1 b) mm\": \"partial\",\n        \"1 c) MPa\": \"partial\",\n        \"1 d) mm\": \"partial\",\n        \"1 e) MPa\": \"partial\",\n        \"2\": \"partial\",\n        \"3\": \"correct\",\n        \"4\": \"partial\"\n    },\n    \"total_correct\": 2,\n    \"total_questions\": 8,\n    \"score\": 43.75\n}\n```",
   "usage": {
     "prompt_tokens": 1273,
-    "completion_tokens": 122,
-    "total_tokens": 1395,
+    "completion_tokens": 127,
+    "total_tokens": 1400,
     "prompt_tokens_details": {
       "cached_tokens": 0
     },
@@ -19,7 +19,22 @@
       "image_tokens": 0
     }
   },
-  "parse_error": "Expecting ',' delimiter: line 8 column 9 (char 153)",
-  "score": null,
-  "raw_response_preview": "```json\n{\n    \"questions\": {\n        \"1a\": \"correct\",\n        \"1b\": \"correct\",\n        \"1c\": \"correct\",\n        \"1d\": \"correct\",\n        \"1e\": \"correct\"\n        // The student only provided answers for Q1 in the text.\n        // Assuming there are other parts based on the ground truth answer format.\n    },\n    \"total_correct\": 5,\n    \"total_questions\": 5,\n    \"score\": 100\n}\n```"
+  "score": 43.75,
+  "questions": {
+    "1 a) kN": "correct",
+    "1 b) mm": "partial",
+    "1 c) MPa": "partial",
+    "1 d) mm": "partial",
+    "1 e) MPa": "partial",
+    "2": "partial",
+    "3": "correct",
+    "4": "partial"
+  },
+  "total_correct": 2,
+  "total_questions": 8,
+  "summary": {
+    "correct": 2,
+    "partial": 6,
+    "incorrect": 0
+  }
 }

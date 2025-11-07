@@ -30,9 +30,9 @@ def call_model(
     model_id: str,
     prompt: str,
     image_paths: Optional[List[Path]] = None,
-    max_tokens: int = 10000,
-    temperature: float = 1.0,
-    timeout: int = 120,
+    max_tokens: int = config.DEFAULT_MAX_TOKENS,
+    temperature: float = config.DEFAULT_TEMPERATURE,
+    timeout: int = config.DEFAULT_TIMEOUT,
 ) -> Dict:
     """
     Call an OpenRouter model with text and optional images.

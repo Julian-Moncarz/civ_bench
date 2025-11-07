@@ -1,3 +1,12 @@
-Civbench!
+# Civbench
 
-Measuring the performance of different AI models on completing our civ homework. I was talking with one of my friends Jason and he mentioned that he has to save his sweet sweet GPT5 free responses to do the homework for him that got me wondering which models are actually the best at doing the homeworkSo I decided to make a simple benchwork benchmark. The benchmark gives the model the image of the question from the homework and then check its answers against Alan's answers, which I take to be ground truth then put a graph here of different models performance and yeah, and then a link to the github.
+### Measuring the performance of frontier AI models on completing our civ homework. 
+
+I was talking someone, and he mentioned that for all his day-to-day AI needs he goes to Gemini, not ChatGPT - because he has to save those sweet sweet free GPT5 responses to do his CIV homework. 
+
+That got me wondering: which models are actually the best at doing the civ? To test this I wrote a simpe benchmark. The benchmark gives each model an image of the homework question, and then checks its answers against Alan's answers, which I take to be ground truth.
+
+
+![alt text](image.png)
+
+github here 

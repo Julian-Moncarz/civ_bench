@@ -4,15 +4,15 @@
   "assignment_num": 1,
   "trial_num": 0,
   "grade_num": 4,
-  "timestamp": "2025-11-06T22:32:08.536376",
+  "timestamp": "2025-11-07T08:31:32.533503",
   "success": true,
   "grade_response": "```json\n{\n    \"questions\": {\n        \"1a\": \"correct\",\n        \"1b\": \"correct\",\n        \"1c\": \"correct\",\n        \"1d\": \"correct\",\n        \"1e\": \"correct\",\n        \"2\": \"partial\",\n        \"3\": \"partial\",\n        \"4\": \"partial\"\n    },\n    \"total_correct\": 5,\n    \"total_questions\": 8,\n    \"score\": 68.75\n}\n```",
   "usage": {
-    "prompt_tokens": 1273,
+    "prompt_tokens": 6124,
     "completion_tokens": 117,
-    "total_tokens": 1390,
+    "total_tokens": 6241,
     "prompt_tokens_details": {
-      "cached_tokens": 0
+      "cached_tokens": 6116
     },
     "completion_tokens_details": {
       "reasoning_tokens": 0,

@@ -29,11 +29,16 @@ if not OPENROUTER_API_KEY:
 
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
+# API request settings
+DEFAULT_MAX_TOKENS = 50000
+DEFAULT_TEMPERATURE = 1.0
+DEFAULT_TIMEOUT = 120  # seconds
+
 # Models to test
 TEST_MODELS = [
     "anthropic/claude-sonnet-4.5",
     "anthropic/claude-opus-4.1",
-    #"openai/gpt-5",
+    "openai/gpt-5",
     "google/gemini-2.5-pro",
     "x-ai/grok-4",
     "qwen/qwen3-vl-235b-a22b-instruct",  # Large Chinese vision model
@@ -42,11 +47,11 @@ TEST_MODELS = [
 # Grader model
 GRADER_MODEL = "google/gemini-2.5-flash"
 GRADER_MAX_TOKENS = 2048  # Reduced for simpler per-question grading
-GRADER_TEMPERATURE = 1  # Deterministic grading for reproducibility
+GRADER_TEMPERATURE = 0.5  # More deterministic grading
 
 # Benchmark settings
 NUM_TRIALS = 1  # Number of answer attempts per model
-NUM_GRADES = 10  # Number of times each answer is graded
+NUM_GRADES = 5  # Number of times each answer is graded
 MAX_WORKERS = 10  # Number of parallel API requests (adjust based on API rate limits)
 
 # Which assignments to test (based on image files in data/images/)

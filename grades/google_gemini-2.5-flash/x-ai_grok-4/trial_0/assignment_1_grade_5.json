@@ -4,9 +4,9 @@
   "assignment_num": 1,
   "trial_num": 0,
   "grade_num": 5,
-  "timestamp": "2025-11-06T22:31:29.843881",
+  "timestamp": "2025-11-06T23:11:18.748106",
   "success": true,
-  "grade_response": "```json\n{\n    \"questions\": {\n        \"1a\": \"correct\",\n        \"1b\": \"partial\",\n        \"1c\": \"partial\",\n        \"1d\": \"partial\",\n        \"1e\": \"incorrect\",\n        \"2\": \"partial\",\n        \"3\": \"incorrect\",\n        \"4\": \"incorrect\"\n    },\n    \"total_correct\": 1,\n    \"total_questions\": 8,\n    \"score\": 18.75\n}\n```",
+  "grade_response": "```json\n{\n    \"questions\": {\n        \"1a\": \"correct\",\n        \"1b\": \"incorrect\",\n        \"1c\": \"partial\",\n        \"1d\": \"incorrect\",\n        \"1e\": \"incorrect\",\n        \"2\": \"correct\",\n        \"3\": \"correct\",\n        \"4\": \"partial\"\n    },\n    \"total_correct\": 3,\n    \"total_questions\": 8,\n    \"score\": 43.75\n}\n```",
   "usage": {
     "prompt_tokens": 3788,
     "completion_tokens": 117,
@@ -19,22 +19,22 @@
       "image_tokens": 0
     }
   },
-  "score": 18.75,
+  "score": 43.75,
   "questions": {
     "1a": "correct",
-    "1b": "partial",
+    "1b": "incorrect",
     "1c": "partial",
-    "1d": "partial",
+    "1d": "incorrect",
     "1e": "incorrect",
-    "2": "partial",
-    "3": "incorrect",
-    "4": "incorrect"
+    "2": "correct",
+    "3": "correct",
+    "4": "partial"
   },
-  "total_correct": 1,
+  "total_correct": 3,
   "total_questions": 8,
   "summary": {
-    "correct": 1,
-    "partial": 4,
+    "correct": 3,
+    "partial": 2,
     "incorrect": 3
   }
 }

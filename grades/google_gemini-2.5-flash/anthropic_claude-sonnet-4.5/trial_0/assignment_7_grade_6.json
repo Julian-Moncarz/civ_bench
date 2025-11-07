@@ -1,0 +1,35 @@
+{
+  "grader_model": "google/gemini-2.5-flash",
+  "graded_model": "anthropic/claude-sonnet-4.5",
+  "assignment_num": 7,
+  "trial_num": 0,
+  "grade_num": 6,
+  "timestamp": "2025-11-06T23:16:04.453150",
+  "success": true,
+  "grade_response": "```json\n{\n    \"questions\": {\n        \"a\": \"incorrect\",\n        \"b\": \"incorrect\",\n        \"c\": \"partial\"\n    },\n    \"total_correct\": 0,\n    \"total_questions\": 3,\n    \"score\": 16.5\n}\n```",
+  "usage": {
+    "prompt_tokens": 3795,
+    "completion_tokens": 71,
+    "total_tokens": 3866,
+    "prompt_tokens_details": {
+      "cached_tokens": 3557
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0
+    }
+  },
+  "score": 16.5,
+  "questions": {
+    "a": "incorrect",
+    "b": "incorrect",
+    "c": "partial"
+  },
+  "total_correct": 0,
+  "total_questions": 3,
+  "summary": {
+    "correct": 0,
+    "partial": 1,
+    "incorrect": 2
+  }
+}

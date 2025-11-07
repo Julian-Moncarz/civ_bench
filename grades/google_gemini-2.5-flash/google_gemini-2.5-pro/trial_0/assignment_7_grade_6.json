@@ -4,9 +4,9 @@
   "assignment_num": 7,
   "trial_num": 0,
   "grade_num": 6,
-  "timestamp": "2025-11-06T22:32:53.622342",
+  "timestamp": "2025-11-06T23:14:04.031280",
   "success": true,
-  "grade_response": "```json\n{\n    \"questions\": {\n        \"a\": \"partial\",\n        \"b\": \"incorrect\",\n        \"c\": \"partial\"\n    },\n    \"total_correct\": 0,\n    \"total_questions\": 3,\n    \"score\": 33.33\n}\n```",
+  "grade_response": "```json\n{\n    \"questions\": {\n        \"a\": \"incorrect\",\n        \"b\": \"incorrect\",\n        \"c\": \"partial\"\n    },\n    \"total_correct\": 0,\n    \"total_questions\": 3,\n    \"score\": 16.67\n}\n```",
   "usage": {
     "prompt_tokens": 4679,
     "completion_tokens": 72,
@@ -19,9 +19,9 @@
       "image_tokens": 0
     }
   },
-  "score": 33.33,
+  "score": 16.67,
   "questions": {
-    "a": "partial",
+    "a": "incorrect",
     "b": "incorrect",
     "c": "partial"
   },
@@ -29,7 +29,7 @@
   "total_questions": 3,
   "summary": {
     "correct": 0,
-    "partial": 2,
-    "incorrect": 1
+    "partial": 1,
+    "incorrect": 2
   }
 }
