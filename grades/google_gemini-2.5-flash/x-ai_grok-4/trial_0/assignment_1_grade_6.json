@@ -1,0 +1,40 @@
+{
+  "grader_model": "google/gemini-2.5-flash",
+  "graded_model": "x-ai/grok-4",
+  "assignment_num": 1,
+  "trial_num": 0,
+  "grade_num": 6,
+  "timestamp": "2025-11-06T22:31:31.762031",
+  "success": true,
+  "grade_response": "```json\n{\n    \"questions\": {\n        \"1a\": \"correct\",\n        \"1b\": \"partial\",\n        \"1c\": \"correct\",\n        \"1d\": \"correct\",\n        \"1e\": \"partial\",\n        \"2\": \"correct\",\n        \"3\": \"incorrect\",\n        \"4\": \"partial\"\n    },\n    \"total_correct\": 4,\n    \"total_questions\": 8,\n    \"score\": 56.25\n}\n```",
+  "usage": {
+    "prompt_tokens": 3788,
+    "completion_tokens": 117,
+    "total_tokens": 3905,
+    "prompt_tokens_details": {
+      "cached_tokens": 3056
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0
+    }
+  },
+  "score": 56.25,
+  "questions": {
+    "1a": "correct",
+    "1b": "partial",
+    "1c": "correct",
+    "1d": "correct",
+    "1e": "partial",
+    "2": "correct",
+    "3": "incorrect",
+    "4": "partial"
+  },
+  "total_correct": 4,
+  "total_questions": 8,
+  "summary": {
+    "correct": 4,
+    "partial": 3,
+    "incorrect": 1
+  }
+}

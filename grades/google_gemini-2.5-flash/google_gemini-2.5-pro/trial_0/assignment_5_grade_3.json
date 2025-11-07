@@ -1,0 +1,35 @@
+{
+  "grader_model": "google/gemini-2.5-flash",
+  "graded_model": "google/gemini-2.5-pro",
+  "assignment_num": 5,
+  "trial_num": 0,
+  "grade_num": 3,
+  "timestamp": "2025-11-06T22:33:08.061431",
+  "success": true,
+  "grade_response": "```json\n{\n    \"questions\": {\n        \"a\": \"correct\",\n        \"b\": \"correct\",\n        \"c\": \"correct\"\n    },\n    \"total_correct\": 3,\n    \"total_questions\": 3,\n    \"score\": 100\n}\n```",
+  "usage": {
+    "prompt_tokens": 1371,
+    "completion_tokens": 70,
+    "total_tokens": 1441,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0
+    }
+  },
+  "score": 100,
+  "questions": {
+    "a": "correct",
+    "b": "correct",
+    "c": "correct"
+  },
+  "total_correct": 3,
+  "total_questions": 3,
+  "summary": {
+    "correct": 3,
+    "partial": 0,
+    "incorrect": 0
+  }
+}

@@ -4,9 +4,9 @@
   "assignment_num": 2,
   "trial_num": 0,
   "grade_num": 4,
-  "timestamp": "2025-11-06T22:16:12.384529",
+  "timestamp": "2025-11-06T22:32:26.969326",
   "success": true,
-  "grade_response": "```json\n{\n    \"questions\": {\n        \"3a\": \"correct\",\n        \"3b\": \"incorrect\",\n        \"3c\": \"incorrect\",\n        \"3d\": \"incorrect\",\n        \"3e\": \"incorrect\"\n    },\n    \"total_correct\": 1,\n    \"total_questions\": 5,\n    \"score\": 20\n}\n```",
+  "grade_response": "```json\n{\n    \"questions\": {\n        \"3a\": \"correct\",\n        \"3b\": \"partial\",\n        \"3c\": \"partial\",\n        \"3d\": \"partial\",\n        \"3e\": \"incorrect\"\n    },\n    \"total_correct\": 1,\n    \"total_questions\": 5,\n    \"score\": 30\n}\n```",
   "usage": {
     "prompt_tokens": 4706,
     "completion_tokens": 90,
@@ -19,19 +19,19 @@
       "image_tokens": 0
     }
   },
-  "score": 20,
+  "score": 30,
   "questions": {
     "3a": "correct",
-    "3b": "incorrect",
-    "3c": "incorrect",
-    "3d": "incorrect",
+    "3b": "partial",
+    "3c": "partial",
+    "3d": "partial",
     "3e": "incorrect"
   },
   "total_correct": 1,
   "total_questions": 5,
   "summary": {
     "correct": 1,
-    "partial": 0,
-    "incorrect": 4
+    "partial": 3,
+    "incorrect": 1
   }
 }

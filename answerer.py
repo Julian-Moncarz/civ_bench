@@ -3,12 +3,16 @@ Module for getting answers from models.
 """
 
 import json
+import logging
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List
 
 import config
 import openrouter_client
+
+# Set up logging
+logger = logging.getLogger(__name__)
 
 
 def find_assignment_images(assignment_num: int) -> List[Path]:
@@ -91,9 +95,12 @@ def get_answer(
     Returns:
         Dict containing the response and metadata
     """
+    logger.info(f"Processing: model={model_id}, assignment={assignment_num}, trial={trial_num}")
+
     # Check if we already have a response for this
     existing_response = load_existing_response(model_id, assignment_num, trial_num)
     if existing_response is not None:
+        logger.info(f"Using cached response for assignment {assignment_num}")
         if verbose:
             print(f"  ✓ Using cached response for assignment {assignment_num}")
         return existing_response
@@ -102,6 +109,7 @@ def get_answer(
     image_paths = find_assignment_images(assignment_num)
 
     if not image_paths:
+        logger.warning(f"No images found for assignment {assignment_num}")
         return {
             "success": False,
             "error": f"No images found for assignment {assignment_num}",
@@ -110,12 +118,14 @@ def get_answer(
             "trial_num": trial_num,
         }
 
+    logger.info(f"Found {len(image_paths)} image(s) for assignment {assignment_num}: {[p.name for p in image_paths]}")
     if verbose:
         print(f"  Sending assignment {assignment_num} ({len(image_paths)} image(s)) to {model_id}...")
 
     # Call the model
     # Use longer timeout for GPT-5 (reasoning models are much slower)
     timeout = 300 if "gpt-5" in model_id.lower() else 120
+    logger.info(f"Calling OpenRouter API with timeout={timeout}s")
     result = openrouter_client.call_model(
         model_id=model_id,
         prompt=config.ANSWERING_PROMPT,
@@ -135,11 +145,13 @@ def get_answer(
     if result["error"]:
         response_data["error"] = result["error"]
         response_data["answer"] = None
+        logger.error(f"Assignment {assignment_num} failed: {result['error']}")
         if verbose:
             print(f"  ❌ Error: {result['error']}")
     else:
         response_data["answer"] = result["content"]
         response_data["usage"] = result.get("usage", {})
+        logger.info(f"Assignment {assignment_num} succeeded: {len(result['content'])} chars, usage={result.get('usage', {})}")
         if verbose:
             print(f"  ✓ Got response ({len(result['content'])} chars)")
 
@@ -165,5 +177,6 @@ def save_answer(response_data: Dict, verbose: bool = True):
     with open(output_file, "w") as f:
         json.dump(response_data, f, indent=2)
 
+    logger.info(f"Saved response to: {output_file}")
     if verbose:
         print(f"  Saved to: {output_file}")

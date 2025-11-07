@@ -4,9 +4,9 @@
   "assignment_num": 1,
   "trial_num": 0,
   "grade_num": 5,
-  "timestamp": "2025-11-06T22:15:56.176103",
+  "timestamp": "2025-11-06T22:32:10.014339",
   "success": true,
-  "grade_response": "```json\n{\n    \"questions\": {\n        \"1a\": \"correct\",\n        \"1b\": \"correct\",\n        \"1c\": \"correct\",\n        \"1d\": \"correct\",\n        \"1e\": \"correct\",\n        \"2\": \"partial\",\n        \"3\": \"partial\",\n        \"4\": \"partial\"\n    },\n    \"total_correct\": 5,\n    \"total_questions\": 8,\n    \"score\": 68.75\n}\n```",
+  "grade_response": "```json\n{\n    \"questions\": {\n        \"1a\": \"correct\",\n        \"1b\": \"correct\",\n        \"1c\": \"correct\",\n        \"1d\": \"correct\",\n        \"1e\": \"correct\",\n        \"2\": \"partial\",\n        \"3\": \"correct\",\n        \"4\": \"partial\"\n    },\n    \"total_correct\": 5,\n    \"total_questions\": 8,\n    \"score\": 68.75\n}\n```",
   "usage": {
     "prompt_tokens": 1273,
     "completion_tokens": 117,
@@ -27,14 +27,14 @@
     "1d": "correct",
     "1e": "correct",
     "2": "partial",
-    "3": "partial",
+    "3": "correct",
     "4": "partial"
   },
   "total_correct": 5,
   "total_questions": 8,
   "summary": {
-    "correct": 5,
-    "partial": 3,
+    "correct": 6,
+    "partial": 2,
     "incorrect": 0
   }
 }
