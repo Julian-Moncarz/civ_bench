@@ -7,6 +7,6 @@ I was talking someone, and he mentioned that for all his day-to-day AI needs he 
 That got me wondering: which models are actually the best at doing the civ? To test this I wrote a simpe benchmark. The benchmark gives each model an image of the homework question, and then checks its answers against Alan's answers, which I take to be ground truth.
 
 
-![alt text](image.png)
+![alt text](analysis/graphs/model_performance.png)
 
-github here 
+github here https://github.com/Julian-Moncarz/civ_bench
